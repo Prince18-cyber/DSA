@@ -1,0 +1,17 @@
+// this is the code for zig zag traversal in binary tree
+// This is done using the bfs
+
+class Solution {
+public:
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+        vector<vector<int> >result;
+        if(root==NULL){
+            return result;
+        }
+        queue<TreeNode*> q;
+…            result.push_back(ans);
+        }
+        return result;
+        
+    }
+};
